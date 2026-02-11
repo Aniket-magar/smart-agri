@@ -1,0 +1,193 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background: linear-gradient(90deg, #4caf50, #00897b); /* Gradient background */
+    padding: 1rem 2rem;
+}
+
+.navbar-brand img {
+    max-width: 150px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-nav .nav-link {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.search-bar {
+    margin-right: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    font-size: 14px;
+}
+
+/* Page Title */
+.container h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Category Titles */
+.container h2 {
+    font-size: 2rem;
+    color: #34495e;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #95a5a6;
+    padding-bottom: 5px;
+}
+
+/* Product Cards */
+.card {
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #2980b9;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Search Bar */
+.search-bar .form-control {
+    border-radius: 30px;
+    border: 2px solid #ecf0f1;
+    padding: 10px 15px;
+}
+
+.search-bar .btn {
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-brand img {
+        max-width: 120px;
+    }
+
+    .card-img-top {
+        height: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+    }
+
+    .btn-primary {
+        font-size: 14px;
+    }
+}
+
+
+
+/* code for brands */
+/* Brands Section */
+.brand-logo {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+}
+
+.brand-logo:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.brand-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #004d00;
+    text-transform: capitalize;
+}
+
+
+.nav-list {
+    display: flex;
+    justify-content: center; /* Centers the links */
+    align-items: center; /* Vertically aligns content */
+    gap: 15px; /* Reduces spacing between links */
+    padding: 0.5px 0; /* Reduces height of the navbar */
+    background-color: #013220; /* Dark green background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+  .nav-list a {
+    text-decoration: none; /* Removes underline */
+        color: #ffffff; /* White text color */
+        font-size: 15px; /* Adjusted font size */
+        font-weight: 500; /* Medium text weight */
+        padding: 6px 12px; /* Adds clickable area around links */
+        border-radius: 3px; /* Slight rounding for hover effect */
+        transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effects */
+    }
+
+  .nav-list a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Slight highlight on hover */
+        transform: scale(1.05); /* Slight zoom effect */
+  }
+  

@@ -1,0 +1,61 @@
+.line-break 
+{
+
+    height: 24px;
+    background-color: rgb(37,78,64);
+    display: flex;
+    justify-content: space-evenly;
+} 
+.header-link
+{   
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 15px;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+.track-order
+{
+   width: 130px;
+}
+.search-btn
+{
+    border: none;
+    color: white;
+    background-color: rgb(250,149,39);
+}
+.login-icon
+{
+    color: black;
+}
+.nav-list {
+    /* display: flex; */
+    gap: 15px;
+    background-color: #f1f1f1;
+    /* padding: 10px; */
+    height: 35px;
+  }
+
+  .nav-list a {
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    height: 25px;
+  }
+
+  .nav-list a:hover {
+    background-color: rgb(37,78,64);;
+    color: white;
+  }
+  
+  /* media query for search bar */
+@media only screen and (max-width:768px)
+{
+    .search-bar
+    {
+        display: none !important;
+    }
+ 
+}
+  

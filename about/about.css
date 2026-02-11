@@ -1,0 +1,124 @@
+/* Navbar Styles */
+.navbar {
+    background: linear-gradient(90deg, #4caf50, #00897b); /* Gradient background */
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand img {
+    border-radius: 5px;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-bar input {
+    width: 200px;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar button {
+    background-color: #00897b;
+    color: #fff;
+    border: none;
+    margin-left: -5px;
+    padding: 8px 12px;
+}
+
+.search-bar button:hover {
+    background-color: #4caf50;
+}
+
+/* Navigation List */
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 0.5px 0;
+    background-color: #013220; /* Dark green background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-list a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.05);
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-list a {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+/* Container Styling */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e3f2fd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}

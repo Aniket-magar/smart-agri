@@ -1,0 +1,33 @@
+body {
+  background-color: #98FB98;
+}
+
+.card {
+  border: 2px solid green;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  height: 100%; /* Ensure full height for all cards */
+  display: flex;
+  flex-direction: column; /* For equal content distribution */
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 200px; /* Fixed image height */
+  object-fit: cover; /* Ensure images fill the area without distortion */
+}
+
+.card-body {
+  flex: 1; /* Make body fill remaining space for equal height */
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.season-card {
+  height: 350px; /* Consistent card height for seasons */
+}
